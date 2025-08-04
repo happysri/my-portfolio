@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name – Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name – web developer. Includes experience, projects, certifications." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav-bar">
+    <a href="#hero">Home</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="hero" class="hero section">
+    <h1>Hello, I’m [Your Name]</h1>
+    <p>I’m a web developer building dynamic sites in HTML, CSS, and JavaScript.</p>
+    <a href="#projects" class="btn">My Work</a>
+  </section>
+
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <div class="job">
+      <h3>Software Developer @ Acme Corp</h3>
+      <p class="period">2023 – Present</p>
+      <ul>
+        <li>Developed interactive dashboards using vanilla JS</li>
+        <li>Designed and built REST clients and API integration</li>
+      </ul>
+    </div>
+    <!-- add more experience blocks here -->
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Portfolio Static Builder</h3>
+      <p>Generates HTML portfolio from JSON résumé.</p>
+      <a href="https://github.com/yourusername/portfolio-gen" target="_blank">View on GitHub</a>
+    </div>
+    <!-- more project cards -->
+  </section>
+
+  <section id="certifications" class="section">
+    <h2>Badges & Certifications</h2>
+    <p>Click any badge to view verification details.</p>
+    <div class="badges-container">
+      <!-- Example - replace with your embed snippet or local image -->
+      <a href="https://www.credly.com/badges/EXAMPLE-BADGE-ID" target="_blank">
+        <img src="https://dm‐example-credly-url.com/your-image.png" alt="IBM Machine Learning Badge" />
+      </a>
+      <a href="https://your-issuer.com/certifications/123" target="_blank">
+        <img src="https://your-company.com/badges/cryptography.png" alt="Cryptography Certification" />
+      </a>
+      <!-- You can paste HTML embed codes directly as obtained from your badge issuer → turn0search2 ⟶ -->
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Name" required /><br />
+      <input type="email" name="email" placeholder="Email" required /><br />
+      <textarea name="message" placeholder="Your message" required></textarea><br />
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div id="status" class="status"></div>
+  </section>
+
+  <section id="certifications" class="section">
+  <h2>Badges & Certifications</h2>
+  <p>Click a badge to view its verification.</p>
+  <div class="badges-container">
+    <!-- Replace src and alt with your actual filenames -->
+    <a href="https://credly.com/your-badge-link" target="_blank">
+      <img src="./images/ibm-ml-badge.png" alt="IBM Machine Learning Badge" />
+    </a>
+
+    <a href="https://issuer.com/certs/123" target="_blank">
+      <img src="./images/crypto-cert.png" alt="Cryptography Certification" />
+    </a>
+  </div>
+</section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
